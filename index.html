@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHAF | Universal Health Access Foundation</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-blue-950 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-5">
+                <a href="index.html" class="flex items-center space-x-3 font-bold text-2xl tracking-wider text-teal-400 hover:text-white transition">
+                    <img src="images/logo.jpg" alt="UHAF Logo" class="h-10 w-10 rounded-full bg-white object-cover shadow-sm border-2 border-teal-400" onerror="this.style.display='none'">
+                    <span>UHAF</span>
+                </a>
+                <!-- Mobile & Desktop Links -->
+                <div class="flex space-x-4 md:space-x-8 text-sm md:text-base font-semibold">
+                    <a href="index.html" class="text-teal-400 border-b-2 border-teal-400 pb-1">Home</a>
+                    <a href="about.html" class="hover:text-teal-400 transition pb-1">About Me</a>
+                    <a href="support.html" class="hover:text-teal-400 transition pb-1">Support</a>
+                    <a href="blogs.html" class="hover:text-teal-400 transition pb-1">Blogs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <header class="bg-blue-900 text-white py-20 text-center px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-teal-300 drop-shadow-md">Universal Health Access Foundation</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed mb-8">
+                The Universal Health Access Foundation (UHAF) is dedicated to changing people's lives for the better. We provide medical attention, provide medicines, and take care of patients for free.
+            </p>
+            <a href="support.html" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-8 rounded-full transition shadow-lg inline-block">
+                Support Our Mission
+            </a>
+        </header>
+
+        <!-- Mission Section -->
+        <section class="max-w-4xl mx-auto py-16 px-6">
+            <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border-t-4 border-teal-500">
+                <h2 class="text-3xl font-bold text-blue-900 mb-6 text-center">Our Mission</h2>
+                <p class="text-lg leading-relaxed text-slate-700 mb-6">
+                    The Universal Health Access Foundation (UHAF) is an official 501(c)(3) nonprofit organization dedicated to providing care to those who require it. We believe that each and every person should have food, water, shelter, and medical care. Our mission is to make sure that we are able to help those we can and start a movement which will improve the lifestyle of many people.
+                </p>
+                <p class="text-lg leading-relaxed text-slate-700 mb-8">
+                    I created this initiative as a way to bring awareness and help people who are having trouble trying to get their basic human needs. You can read more about this and me <a href="about.html" class="text-teal-600 font-semibold hover:underline">here</a>.
+                </p>
+                
+                <div class="bg-blue-50 rounded-xl p-6 mb-8 text-center border border-blue-100">
+                    <p class="text-xl font-medium text-blue-800 mb-4">
+                        I need your help and support to make a difference and bring positive impact to people's lives. JOIN ME in my quest to make healthcare available and accessible to everyone, with this ancient Sanskrit mantra serving as our guiding light:
+                    </p>
+                </div>
+
+                <!-- Mantra Block -->
+                <blockquote class="bg-slate-900 text-teal-50 italic p-8 rounded-xl shadow-md mx-auto max-w-2xl">
+                    <p class="text-center text-xl leading-loose mb-6 font-medium">
+                        sarve bhavantu sukhinaḥ<br>
+                        sarve santu nirāmayāḥ<br>
+                        sarve bhadrāṇi paśyantu<br>
+                        mā kaścidduḥ khabhāgbhaveta।<br>
+                        śāntiḥ śāntiḥ śāntiḥ॥
+                    </p>
+                    <div class="border-t border-teal-800 pt-4 mt-2">
+                        <p class="text-center text-sm font-bold text-teal-400 uppercase tracking-widest mb-2">English Translation:</p>
+                        <p class="text-center text-md leading-relaxed text-slate-300">
+                            May all sentient beings be at peace,<br>
+                            may no one suffer from illness,<br>
+                            May all see what is auspicious,<br>
+                            may no one suffer.<br>
+                            Om peace, peace, peace.
+                        </p>
+                    </div>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t-4 border-teal-600">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col items-center text-center">
+            <img src="images/logo.jpg" alt="UHAF Logo" class="h-14 w-14 rounded-full mb-4 object-cover border-2 border-teal-600 opacity-90" onerror="this.style.display='none'">
+            <h3 class="text-white text-lg font-bold mb-2 uppercase tracking-wide">Universal Health Access Foundation</h3>
+            <p class="mb-2">Dedicated to changing people's lives for the better.</p>
+            <p class="text-sm text-teal-400 mb-4 font-semibold">An official 501(c)(3) nonprofit organization.</p>
+            <p class="text-sm">Contact: <a href="mailto:uhaf.nonprofit@gmail.com" class="text-teal-400 hover:text-teal-300 transition">uhaf.nonprofit@gmail.com</a></p>
+            <p class="text-sm mt-6 text-slate-500">&copy; 2024-2026 Neelansh Bhandari / HeisenBohr11. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

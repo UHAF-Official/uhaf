@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHAF | About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-blue-950 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-5">
+                <a href="index.html" class="flex items-center space-x-3 font-bold text-2xl tracking-wider text-teal-400 hover:text-white transition">
+                    <img src="images/logo.jpg" alt="UHAF Logo" class="h-10 w-10 rounded-full bg-white object-cover shadow-sm border-2 border-teal-400" onerror="this.style.display='none'">
+                    <span>UHAF</span>
+                </a>
+                <div class="flex space-x-4 md:space-x-8 text-sm md:text-base font-semibold">
+                    <a href="index.html" class="hover:text-teal-400 transition pb-1">Home</a>
+                    <a href="about.html" class="text-teal-400 border-b-2 border-teal-400 pb-1">About Me</a>
+                    <a href="support.html" class="hover:text-teal-400 transition pb-1">Support</a>
+                    <a href="blogs.html" class="hover:text-teal-400 transition pb-1">Blogs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow py-16 px-6">
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-8 md:p-12">
+            <h1 class="text-4xl font-bold text-blue-900 mb-8 border-b-4 border-teal-400 pb-4 inline-block">About Me</h1>
+            
+            <div class="flex flex-col md:flex-row gap-8 items-start mb-8">
+                <!-- Personal Image -->
+                <img src="images/me.jpg" alt="Neelansh Bhandari" class="w-full md:w-1/3 rounded-xl shadow-lg object-cover border border-gray-200" onerror="this.style.display='none'">
+                
+                <div class="space-y-6 text-lg text-slate-700 leading-relaxed flex-1">
+                    <p>
+                        I am <strong class="text-blue-900">Neelansh Bhandari</strong>, currently a sophomore at Skyline High School in Sammamish, Washington.
+                    </p>
+                    
+                    <p>
+                        I love interacting with people, and these interactions, along with my personal experiences living in 3 continents, have taught me that there are many on our planet who still don't have access to basic medical care. While there are many large organizations that try to help, I wanted to do my bit to bring quality medical care to those who need it the most. This is why I founded the <a href="index.html" class="text-teal-600 font-bold hover:underline">Universal Health Access Foundation</a>. If you share the same passion, I encourage you to join me in this initiative or <a href="support.html" class="text-emerald-600 font-bold hover:underline">DONATE A SMALL AMOUNT</a> that can be used to provide free medical care and support to the remotest parts of the world.
+                    </p>
+                </div>
+            </div>
+
+            <div class="space-y-6 text-lg text-slate-700 leading-relaxed">
+                <div class="bg-teal-50 border-l-4 border-teal-500 p-6 rounded-r-lg my-8 shadow-sm">
+                    <p>
+                        During 2024, we hosted 2 successful medical camps—one in <a href="barmer.html" class="text-blue-700 font-bold hover:underline">a remote village on Rajasthan's western border</a> and the other in <a href="jodhpur.html" class="text-blue-700 font-bold hover:underline">the city of Jodhpur</a>. Between the two camps, I was able to aid in providing crucial medical care to <strong>392 people</strong>.
+                    </p>
+                </div>
+
+                <p>
+                    I am interested in Greek and Indian mythology, science, and math. During my time at Beaver Lake Middle School, I founded the Science Olympiad Club and captained the Science Bowl team. I also founded and served as the president of our school's math club. I enjoy reading, swimming, hiking, competing in Jiu Jitsu, playing cricket, and learning.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t-4 border-teal-600">
+        <div class="max-w-4xl mx-auto px-4 flex flex-col items-center text-center">
+            <img src="images/logo.jpg" alt="UHAF Logo" class="h-14 w-14 rounded-full mb-4 object-cover border-2 border-teal-600 opacity-90" onerror="this.style.display='none'">
+            <h3 class="text-white text-lg font-bold mb-2 uppercase tracking-wide">Universal Health Access Foundation</h3>
+            <p class="mb-2">Dedicated to changing people's lives for the better.</p>
+            <p class="text-sm text-teal-400 mb-4 font-semibold">An official 501(c)(3) nonprofit organization.</p>
+            <p class="text-sm">Contact: <a href="mailto:uhaf.nonprofit@gmail.com" class="text-teal-400 hover:text-teal-300 transition">uhaf.nonprofit@gmail.com</a></p>
+            <p class="text-sm mt-6 text-slate-500">&copy; 2024-2026 Neelansh Bhandari / HeisenBohr11. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
