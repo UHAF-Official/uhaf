@@ -34,19 +34,63 @@
 
     <!-- MAIN CONTENT -->
     <main class="flex-grow">
-        <!-- Hero Section -->
-        <header class="bg-blue-900 text-white py-20 text-center px-4">
-            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-teal-300 drop-shadow-md">Universal Health Access Foundation</h1>
-            <p class="text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed mb-8">
-                The Universal Health Access Foundation (UHAF) is dedicated to changing people's lives for the better. We provide medical attention, provide medicines, and take care of patients for free.
-            </p>
-            <a href="support.html" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-8 rounded-full transition shadow-lg inline-block">
-                Support Our Mission
-            </a>
+        <!-- Hero Banner Section -->
+        <header class="bg-blue-900 text-white py-20 text-center px-4 relative">
+            <div class="max-w-4xl mx-auto">
+                <!-- Large Logo acting as a banner focal point -->
+                <img src="images/logo.jpg" alt="UHAF Banner Logo" class="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-8 border-4 border-teal-400 shadow-xl object-cover" onerror="this.style.display='none'">
+                
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-teal-300 drop-shadow-md">Universal Health Access Foundation</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed mb-8">
+                    The Universal Health Access Foundation (UHAF) is dedicated to changing people's lives for the better. We provide medical attention, provide medicines, and take care of patients for free.
+                </p>
+                <a href="support.html" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-8 rounded-full transition shadow-lg inline-block">
+                    Support Our Mission
+                </a>
+            </div>
         </header>
 
+        <!-- Featured Blogs Section (Before Our Mission) -->
+        <section class="max-w-6xl mx-auto py-16 px-6">
+            <div class="flex justify-between items-end mb-10 border-b-4 border-teal-400 pb-4">
+                <h2 class="text-3xl font-bold text-blue-900">Featured Mission Updates</h2>
+                <a href="blogs.html" class="text-emerald-600 font-semibold hover:text-emerald-500 transition hidden md:inline-block">View All Updates →</a>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Blog Post 1 Card -->
+                <a href="jodhpur.html" class="block bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 group">
+                    <div class="p-8 h-full flex flex-col">
+                        <p class="text-teal-600 font-bold text-sm uppercase tracking-widest mb-2">Dec 16, 2024</p>
+                        <h3 class="text-2xl font-bold text-blue-900 mb-3 group-hover:text-teal-700 transition">A medical camp in India's blue heaven - Jodhpur</h3>
+                        <p class="text-slate-600 line-clamp-3 flex-grow">
+                            Jodhpur, with its iconic blue-painted houses and a legacy rich in culture and history, is a city in Rajasthan, India brimming with life and stories...
+                        </p>
+                        <span class="inline-block mt-4 text-emerald-600 font-semibold group-hover:text-emerald-500 transition">Read Full Story →</span>
+                    </div>
+                </a>
+
+                <!-- Blog Post 2 Card -->
+                <a href="barmer.html" class="block bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-100 group">
+                    <div class="p-8 h-full flex flex-col">
+                        <p class="text-teal-600 font-bold text-sm uppercase tracking-widest mb-2">Dec 15, 2024</p>
+                        <h3 class="text-2xl font-bold text-blue-900 mb-3 group-hover:text-teal-700 transition">A medical camp in a remote village on India's western border</h3>
+                        <p class="text-slate-600 line-clamp-3 flex-grow">
+                            Along the western border of India lies Rajasthan. Rajasthan is a massive state where most of the land is a desert. But on this dry expanse...
+                        </p>
+                        <span class="inline-block mt-4 text-emerald-600 font-semibold group-hover:text-emerald-500 transition">Read Full Story →</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Mobile link for View All -->
+            <div class="mt-8 text-center md:hidden">
+                <a href="blogs.html" class="text-emerald-600 font-semibold hover:text-emerald-500 transition inline-block">View All Updates →</a>
+            </div>
+        </section>
+
         <!-- Mission Section -->
-        <section class="max-w-4xl mx-auto py-16 px-6">
+        <section class="max-w-4xl mx-auto pb-16 px-6">
             <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border-t-4 border-teal-500">
                 <h2 class="text-3xl font-bold text-blue-900 mb-6 text-center">Our Mission</h2>
                 <p class="text-lg leading-relaxed text-slate-700 mb-6">
